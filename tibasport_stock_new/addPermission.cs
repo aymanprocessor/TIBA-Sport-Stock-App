@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace tibasport_stock_new
 {
-    public partial class Form1 : Form
+    public partial class addPermission : Form
     {
-        public Form1()
+        public addPermission()
         {
             InitializeComponent();
         }
