@@ -52,8 +52,6 @@ namespace tibasport_stock_new {
         
         private trans_typeDataTable tabletrans_type;
         
-        private global::System.Data.DataRelation relationFK_item_master_balance;
-        
         private global::System.Data.DataRelation relationFK_customer_trans_header;
         
         private global::System.Data.DataRelation relationFK_trans_header_trans_detail;
@@ -63,6 +61,8 @@ namespace tibasport_stock_new {
         private global::System.Data.DataRelation relationFK_trans_header_trans_detail1;
         
         private global::System.Data.DataRelation relationFK_trans_header_trans_detail2;
+        
+        private global::System.Data.DataRelation relationFK_item_master_balance;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -518,12 +518,12 @@ namespace tibasport_stock_new {
                     this.tabletrans_type.InitVars();
                 }
             }
-            this.relationFK_item_master_balance = this.Relations["FK_item_master_balance"];
             this.relationFK_customer_trans_header = this.Relations["FK_customer_trans_header"];
             this.relationFK_trans_header_trans_detail = this.Relations["FK_trans_header_trans_detail"];
             this.relationFK_item_master_trans_detail = this.Relations["FK_item_master_trans_detail"];
             this.relationFK_trans_header_trans_detail1 = this.Relations["FK_trans_header_trans_detail1"];
             this.relationFK_trans_header_trans_detail2 = this.Relations["FK_trans_header_trans_detail2"];
+            this.relationFK_item_master_balance = this.Relations["FK_item_master_balance"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -563,13 +563,6 @@ namespace tibasport_stock_new {
             this.tabletrans_type = new trans_typeDataTable();
             base.Tables.Add(this.tabletrans_type);
             global::System.Data.ForeignKeyConstraint fkc;
-            fkc = new global::System.Data.ForeignKeyConstraint("FK_item_master_balance", new global::System.Data.DataColumn[] {
-                        this.tableitem_master.codeColumn}, new global::System.Data.DataColumn[] {
-                        this.tablebalance.codeColumn});
-            this.tablebalance.Constraints.Add(fkc);
-            fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
-            fkc.DeleteRule = global::System.Data.Rule.Cascade;
-            fkc.UpdateRule = global::System.Data.Rule.Cascade;
             fkc = new global::System.Data.ForeignKeyConstraint("FK_customer_trans_header", new global::System.Data.DataColumn[] {
                         this.tablecustomer.IdColumn}, new global::System.Data.DataColumn[] {
                         this.tabletrans_header.customer_idColumn});
@@ -605,10 +598,6 @@ namespace tibasport_stock_new {
             fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
             fkc.DeleteRule = global::System.Data.Rule.Cascade;
             fkc.UpdateRule = global::System.Data.Rule.Cascade;
-            this.relationFK_item_master_balance = new global::System.Data.DataRelation("FK_item_master_balance", new global::System.Data.DataColumn[] {
-                        this.tableitem_master.codeColumn}, new global::System.Data.DataColumn[] {
-                        this.tablebalance.codeColumn}, false);
-            this.Relations.Add(this.relationFK_item_master_balance);
             this.relationFK_customer_trans_header = new global::System.Data.DataRelation("FK_customer_trans_header", new global::System.Data.DataColumn[] {
                         this.tablecustomer.IdColumn}, new global::System.Data.DataColumn[] {
                         this.tabletrans_header.customer_idColumn}, false);
@@ -629,6 +618,10 @@ namespace tibasport_stock_new {
                         this.tabletrans_header.typeColumn}, new global::System.Data.DataColumn[] {
                         this.tabletrans_detail.trans_typeColumn}, false);
             this.Relations.Add(this.relationFK_trans_header_trans_detail2);
+            this.relationFK_item_master_balance = new global::System.Data.DataRelation("FK_item_master_balance", new global::System.Data.DataColumn[] {
+                        this.tableitem_master.codeColumn}, new global::System.Data.DataColumn[] {
+                        this.tablebalance.codeColumn}, false);
+            this.Relations.Add(this.relationFK_item_master_balance);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5020,8 +5013,7 @@ namespace tibasport_stock_new {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnId}, true));
                 this.columnId.AutoIncrement = true;
-                this.columnId.AutoIncrementSeed = -1;
-                this.columnId.AutoIncrementStep = -1;
+                this.columnId.AutoIncrementSeed = 1;
                 this.columnId.AllowDBNull = false;
                 this.columnId.ReadOnly = true;
                 this.columnId.Unique = true;

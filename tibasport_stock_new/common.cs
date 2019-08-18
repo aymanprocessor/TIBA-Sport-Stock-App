@@ -30,7 +30,7 @@ namespace tibasport_stock_new
                         using (SqlConnection conn1 = new SqlConnection(Properties.Settings.Default.tibasport_dbConnectionString))
                         {
                             conn1.Open();
-                            using (SqlCommand cmd1 = new SqlCommand(query1, conn1))
+                            using (SqlCommand cmd1 = new SqlCommand(query, conn1))
                             {
                                 cmd1.ExecuteNonQuery();
 
@@ -52,6 +52,6 @@ namespace tibasport_stock_new
                 }
             }
         }
-       
+
     }
 }

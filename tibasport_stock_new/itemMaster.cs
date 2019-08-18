@@ -78,11 +78,29 @@ namespace tibasport_stock_new
 
                     };
 
+                    var balance = new Models.Balance()
+                    {
+                        Year = DateTime.Today.Year,
+                        Code = getCode(),
+                        ItemDesc = getDesc(),
+                        Avg = "0",
+                        Count = "0",
+                        Store = storeComboBox.Text
+
+                    };
+
+
                     tiba.ItemMaster.Add(item);
+                    tiba.SaveChanges();
+
+                    tiba.Balance.Add(balance);
                     tiba.SaveChanges();
                 }
                 this.item_masterTableAdapter.Dispose();
                 this.item_masterTableAdapter.Fill(this.tibasport_dbDataSet.item_master);
+
+                this.balanceTableAdapter.Dispose();
+                this.balanceTableAdapter.Fill(this.tibasport_dbDataSet.balance);
             }
             catch (Exception ex)
             {
@@ -131,26 +149,31 @@ namespace tibasport_stock_new
 
         private void major_gpComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            codeLabel1.Text = getCode();
             item_descLabel1.Text = getDesc();
         }
 
         private void markComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            codeLabel1.Text = getCode();
             item_descLabel1.Text = getDesc();
         }
 
         private void typeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            codeLabel1.Text = getCode();
             item_descLabel1.Text = getDesc();
         }
 
         private void colorComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            codeLabel1.Text = getCode();
             item_descLabel1.Text = getDesc();
         }
 
         private void sizeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            codeLabel1.Text = getCode();
             item_descLabel1.Text = getDesc();
         }
 

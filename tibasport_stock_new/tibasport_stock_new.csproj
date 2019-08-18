@@ -224,6 +224,9 @@
     <EmbeddedResource Include="Balance.resx">
       <DependentUpon>Balance.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>

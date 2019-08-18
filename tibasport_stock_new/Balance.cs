@@ -16,5 +16,13 @@ namespace tibasport_stock_new
         {
             InitializeComponent();
         }
+
+        private void Balance_Load(object sender, EventArgs e)
+        {
+            this.balanceTableAdapter.Dispose();
+            // TODO: This line of code loads data into the 'tibasport_dbDataSet.balance' table. You can move, or remove it, as needed.
+            this.balanceTableAdapter.Fill(this.tibasport_dbDataSet.balance);
+
+        }
     }
 }

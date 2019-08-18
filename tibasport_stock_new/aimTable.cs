@@ -25,6 +25,10 @@ namespace tibasport_stock_new
 
         private void aimTable_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'tibasport_dbDataSet.trans_type' table. You can move, or remove it, as needed.
+            this.trans_typeTableAdapter.Fill(this.tibasport_dbDataSet.trans_type);
+            // TODO: This line of code loads data into the 'tibasport_dbDataSet.trans_type' table. You can move, or remove it, as needed.
+            this.trans_typeTableAdapter.Fill(this.tibasport_dbDataSet.trans_type);
             // TODO: This line of code loads data into the 'tibasport_dbDataSet.unit' table. You can move, or remove it, as needed.
             this.unitTableAdapter.Fill(this.tibasport_dbDataSet.unit);
             // TODO: This line of code loads data into the 'tibasport_dbDataSet.location' table. You can move, or remove it, as needed.
@@ -92,7 +96,11 @@ namespace tibasport_stock_new
                         locationTableAdapter.Update(this.tibasport_dbDataSet.location);
                         set_autoinc("location", "id", dgViewLocation);
                         break;
-
+                    case "نوع الحركة":
+                        transtypeBindingSource.EndEdit();
+              trans_typeTableAdapter.Update(this.tibasport_dbDataSet.trans_type);
+                        set_autoinc("trans_type", "id", dgViewTransType);
+                        break;
 
                 }
             }
@@ -104,7 +112,7 @@ namespace tibasport_stock_new
             finally
             {
 
-                MessageBox.Show("you have been successful saved", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("تم عملية الحفظ بنجاح", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             Cursor.Current = Cursors.Default;
         }

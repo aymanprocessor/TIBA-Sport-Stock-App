@@ -81,6 +81,12 @@
             this.locationTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.locationTableAdapter();
             this.unitTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.unitTableAdapter();
             this.btnSave = new System.Windows.Forms.Button();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.dgViewTransType = new System.Windows.Forms.DataGridView();
+            this.transtypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.trans_typeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.trans_typeTableAdapter();
+            this.idDataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgViewMajor)).BeginInit();
@@ -107,6 +113,9 @@
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgViewUnit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.unitBindingSource)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgViewTransType)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transtypeBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl
@@ -119,6 +128,7 @@
             this.tabControl.Controls.Add(this.tabPage7);
             this.tabControl.Controls.Add(this.tabPage8);
             this.tabControl.Controls.Add(this.tabPage6);
+            this.tabControl.Controls.Add(this.tabPage9);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl.Location = new System.Drawing.Point(0, 60);
@@ -547,6 +557,53 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.dgViewTransType);
+            this.tabPage9.Location = new System.Drawing.Point(4, 28);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1025, 346);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "نوع الحركة";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // dgViewTransType
+            // 
+            this.dgViewTransType.AutoGenerateColumns = false;
+            this.dgViewTransType.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgViewTransType.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn8,
+            this.nameDataGridViewTextBoxColumn8});
+            this.dgViewTransType.DataSource = this.transtypeBindingSource;
+            this.dgViewTransType.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgViewTransType.Location = new System.Drawing.Point(3, 3);
+            this.dgViewTransType.Name = "dgViewTransType";
+            this.dgViewTransType.Size = new System.Drawing.Size(1019, 340);
+            this.dgViewTransType.TabIndex = 0;
+            // 
+            // transtypeBindingSource
+            // 
+            this.transtypeBindingSource.DataMember = "trans_type";
+            this.transtypeBindingSource.DataSource = this.tibasport_dbDataSet;
+            // 
+            // trans_typeTableAdapter
+            // 
+            this.trans_typeTableAdapter.ClearBeforeFill = true;
+            // 
+            // idDataGridViewTextBoxColumn8
+            // 
+            this.idDataGridViewTextBoxColumn8.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn8.HeaderText = "م";
+            this.idDataGridViewTextBoxColumn8.Name = "idDataGridViewTextBoxColumn8";
+            this.idDataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn8
+            // 
+            this.nameDataGridViewTextBoxColumn8.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn8.HeaderText = "الاسم";
+            this.nameDataGridViewTextBoxColumn8.Name = "nameDataGridViewTextBoxColumn8";
+            // 
             // aimTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
@@ -587,6 +644,9 @@
             this.tabPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgViewUnit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.unitBindingSource)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgViewTransType)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transtypeBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -644,5 +704,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn7;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.DataGridView dgViewTransType;
+        private System.Windows.Forms.BindingSource transtypeBindingSource;
+        private tibasport_dbDataSetTableAdapters.trans_typeTableAdapter trans_typeTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn8;
     }
 }

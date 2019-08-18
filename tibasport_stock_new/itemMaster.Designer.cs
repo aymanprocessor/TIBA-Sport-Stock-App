@@ -47,40 +47,6 @@
             this.item_masterTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.item_masterTableAdapter();
             this.tableAdapterManager = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.TableAdapterManager();
             this.item_masterDataGridView = new System.Windows.Forms.DataGridView();
-            this.idLabel1 = new System.Windows.Forms.Label();
-            this.major_gpComboBox = new System.Windows.Forms.ComboBox();
-            this.majorgpBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.colorComboBox = new System.Windows.Forms.ComboBox();
-            this.sizeComboBox = new System.Windows.Forms.ComboBox();
-            this.storeComboBox = new System.Windows.Forms.ComboBox();
-            this.unitComboBox = new System.Windows.Forms.ComboBox();
-            this.locationComboBox = new System.Windows.Forms.ComboBox();
-            this.major_gpTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.major_gpTableAdapter();
-            this.majorgpBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.markComboBox = new System.Windows.Forms.ComboBox();
-            this.typeComboBox = new System.Windows.Forms.ComboBox();
-            this.reorderTextBox = new System.Windows.Forms.TextBox();
-            this.item_descLabel1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.avgLabel1 = new System.Windows.Forms.Label();
-            this.markBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.markTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.markTableAdapter();
-            this.typeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.typeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.typeTableAdapter();
-            this.colorBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.colorTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.colorTableAdapter();
-            this.sizeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sizeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.sizeTableAdapter();
-            this.storeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.storeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.storeTableAdapter();
-            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.locationTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.locationTableAdapter();
-            this.unitBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.unitTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.unitTableAdapter();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.codeLabel1 = new System.Windows.Forms.Label();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -89,6 +55,42 @@
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idLabel1 = new System.Windows.Forms.Label();
+            this.major_gpComboBox = new System.Windows.Forms.ComboBox();
+            this.majorgpBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.colorComboBox = new System.Windows.Forms.ComboBox();
+            this.colorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sizeComboBox = new System.Windows.Forms.ComboBox();
+            this.sizeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.storeComboBox = new System.Windows.Forms.ComboBox();
+            this.storeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.unitComboBox = new System.Windows.Forms.ComboBox();
+            this.unitBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.locationComboBox = new System.Windows.Forms.ComboBox();
+            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.major_gpTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.major_gpTableAdapter();
+            this.majorgpBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.markComboBox = new System.Windows.Forms.ComboBox();
+            this.markBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.typeComboBox = new System.Windows.Forms.ComboBox();
+            this.typeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.reorderTextBox = new System.Windows.Forms.TextBox();
+            this.item_descLabel1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.codeLabel1 = new System.Windows.Forms.Label();
+            this.avgLabel1 = new System.Windows.Forms.Label();
+            this.markTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.markTableAdapter();
+            this.typeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.typeTableAdapter();
+            this.colorTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.colorTableAdapter();
+            this.sizeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.sizeTableAdapter();
+            this.storeTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.storeTableAdapter();
+            this.locationTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.locationTableAdapter();
+            this.unitTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.unitTableAdapter();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.balanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.balanceTableAdapter = new tibasport_stock_new.tibasport_dbDataSetTableAdapters.balanceTableAdapter();
             idLabel = new System.Windows.Forms.Label();
             major_gpLabel = new System.Windows.Forms.Label();
             colorLabel = new System.Windows.Forms.Label();
@@ -106,15 +108,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.item_masterBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.item_masterDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.markBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sizeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.storeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.unitBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.markBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeBindingSource)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.balanceBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // idLabel
@@ -187,6 +190,65 @@
             locationLabel.TabIndex = 15;
             locationLabel.Text = "الرف :";
             // 
+            // markLabel
+            // 
+            markLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            markLabel.AutoSize = true;
+            markLabel.Location = new System.Drawing.Point(806, 47);
+            markLabel.Name = "markLabel";
+            markLabel.Size = new System.Drawing.Size(51, 18);
+            markLabel.TabIndex = 16;
+            markLabel.Text = "الماركة :";
+            // 
+            // typeLabel
+            // 
+            typeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            typeLabel.AutoSize = true;
+            typeLabel.Location = new System.Drawing.Point(630, 47);
+            typeLabel.Name = "typeLabel";
+            typeLabel.Size = new System.Drawing.Size(43, 18);
+            typeLabel.TabIndex = 17;
+            typeLabel.Text = "النوع :";
+            // 
+            // reorderLabel
+            // 
+            reorderLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            reorderLabel.AutoSize = true;
+            reorderLabel.Location = new System.Drawing.Point(430, 83);
+            reorderLabel.Name = "reorderLabel";
+            reorderLabel.Size = new System.Drawing.Size(63, 18);
+            reorderLabel.TabIndex = 19;
+            reorderLabel.Text = "حد الطلب :";
+            // 
+            // item_descLabel
+            // 
+            item_descLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            item_descLabel.AutoSize = true;
+            item_descLabel.Location = new System.Drawing.Point(792, 21);
+            item_descLabel.Name = "item_descLabel";
+            item_descLabel.Size = new System.Drawing.Size(54, 18);
+            item_descLabel.TabIndex = 21;
+            item_descLabel.Text = "الوصف :";
+            // 
+            // avgLabel
+            // 
+            avgLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            avgLabel.AutoSize = true;
+            avgLabel.Location = new System.Drawing.Point(332, 21);
+            avgLabel.Name = "avgLabel";
+            avgLabel.Size = new System.Drawing.Size(58, 18);
+            avgLabel.TabIndex = 22;
+            avgLabel.Text = "المتوسط :";
+            // 
+            // codeLabel
+            // 
+            codeLabel.AutoSize = true;
+            codeLabel.Location = new System.Drawing.Point(1017, 21);
+            codeLabel.Name = "codeLabel";
+            codeLabel.Size = new System.Drawing.Size(41, 18);
+            codeLabel.TabIndex = 23;
+            codeLabel.Text = "الكود :";
+            // 
             // tibasport_dbDataSet
             // 
             this.tibasport_dbDataSet.DataSetName = "tibasport_dbDataSet";
@@ -248,6 +310,71 @@
             this.item_masterDataGridView.TabIndex = 1;
             this.item_masterDataGridView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.item_masterDataGridView_KeyDown);
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "م";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 38;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "code";
+            this.dataGridViewTextBoxColumn2.HeaderText = "الكود";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 58;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "item_desc";
+            this.dataGridViewTextBoxColumn7.HeaderText = "الوصف";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 60;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 71;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "store";
+            this.dataGridViewTextBoxColumn8.HeaderText = "المخزن";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Width = 69;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "location";
+            this.dataGridViewTextBoxColumn12.HeaderText = "الرف";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            this.dataGridViewTextBoxColumn12.Width = 58;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "avg";
+            this.dataGridViewTextBoxColumn11.HeaderText = "المتوسط";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            this.dataGridViewTextBoxColumn11.Width = 75;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "reorder";
+            this.dataGridViewTextBoxColumn10.HeaderText = "حد الطلب";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "unit";
+            this.dataGridViewTextBoxColumn9.HeaderText = "الوحدة";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.dataGridViewTextBoxColumn9.Width = 66;
+            // 
             // idLabel1
             // 
             this.idLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -291,6 +418,11 @@
             this.colorComboBox.TabIndex = 8;
             this.colorComboBox.SelectedIndexChanged += new System.EventHandler(this.colorComboBox_SelectedIndexChanged);
             // 
+            // colorBindingSource
+            // 
+            this.colorBindingSource.DataMember = "color";
+            this.colorBindingSource.DataSource = this.tibasport_dbDataSet;
+            // 
             // sizeComboBox
             // 
             this.sizeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -305,6 +437,11 @@
             this.sizeComboBox.TabIndex = 10;
             this.sizeComboBox.SelectedIndexChanged += new System.EventHandler(this.sizeComboBox_SelectedIndexChanged);
             // 
+            // sizeBindingSource
+            // 
+            this.sizeBindingSource.DataMember = "size";
+            this.sizeBindingSource.DataSource = this.tibasport_dbDataSet;
+            // 
             // storeComboBox
             // 
             this.storeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -317,6 +454,11 @@
             this.storeComboBox.Name = "storeComboBox";
             this.storeComboBox.Size = new System.Drawing.Size(121, 26);
             this.storeComboBox.TabIndex = 12;
+            // 
+            // storeBindingSource
+            // 
+            this.storeBindingSource.DataMember = "store";
+            this.storeBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // unitComboBox
             // 
@@ -331,6 +473,11 @@
             this.unitComboBox.Size = new System.Drawing.Size(121, 26);
             this.unitComboBox.TabIndex = 14;
             // 
+            // unitBindingSource
+            // 
+            this.unitBindingSource.DataMember = "unit";
+            this.unitBindingSource.DataSource = this.tibasport_dbDataSet;
+            // 
             // locationComboBox
             // 
             this.locationComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -344,6 +491,11 @@
             this.locationComboBox.Size = new System.Drawing.Size(121, 26);
             this.locationComboBox.TabIndex = 16;
             // 
+            // locationBindingSource
+            // 
+            this.locationBindingSource.DataMember = "location";
+            this.locationBindingSource.DataSource = this.tibasport_dbDataSet;
+            // 
             // major_gpTableAdapter
             // 
             this.major_gpTableAdapter.ClearBeforeFill = true;
@@ -352,16 +504,6 @@
             // 
             this.majorgpBindingSource1.DataMember = "major_gp";
             this.majorgpBindingSource1.DataSource = this.tibasport_dbDataSet;
-            // 
-            // markLabel
-            // 
-            markLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            markLabel.AutoSize = true;
-            markLabel.Location = new System.Drawing.Point(806, 47);
-            markLabel.Name = "markLabel";
-            markLabel.Size = new System.Drawing.Size(51, 18);
-            markLabel.TabIndex = 16;
-            markLabel.Text = "الماركة :";
             // 
             // markComboBox
             // 
@@ -377,15 +519,10 @@
             this.markComboBox.TabIndex = 17;
             this.markComboBox.SelectedIndexChanged += new System.EventHandler(this.markComboBox_SelectedIndexChanged);
             // 
-            // typeLabel
+            // markBindingSource
             // 
-            typeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            typeLabel.AutoSize = true;
-            typeLabel.Location = new System.Drawing.Point(630, 47);
-            typeLabel.Name = "typeLabel";
-            typeLabel.Size = new System.Drawing.Size(43, 18);
-            typeLabel.TabIndex = 17;
-            typeLabel.Text = "النوع :";
+            this.markBindingSource.DataMember = "mark";
+            this.markBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // typeComboBox
             // 
@@ -401,15 +538,10 @@
             this.typeComboBox.TabIndex = 18;
             this.typeComboBox.SelectedIndexChanged += new System.EventHandler(this.typeComboBox_SelectedIndexChanged);
             // 
-            // reorderLabel
+            // typeBindingSource
             // 
-            reorderLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            reorderLabel.AutoSize = true;
-            reorderLabel.Location = new System.Drawing.Point(430, 83);
-            reorderLabel.Name = "reorderLabel";
-            reorderLabel.Size = new System.Drawing.Size(63, 18);
-            reorderLabel.TabIndex = 19;
-            reorderLabel.Text = "حد الطلب :";
+            this.typeBindingSource.DataMember = "type";
+            this.typeBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // reorderTextBox
             // 
@@ -420,16 +552,6 @@
             this.reorderTextBox.Name = "reorderTextBox";
             this.reorderTextBox.Size = new System.Drawing.Size(100, 25);
             this.reorderTextBox.TabIndex = 20;
-            // 
-            // item_descLabel
-            // 
-            item_descLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            item_descLabel.AutoSize = true;
-            item_descLabel.Location = new System.Drawing.Point(792, 21);
-            item_descLabel.Name = "item_descLabel";
-            item_descLabel.Size = new System.Drawing.Size(54, 18);
-            item_descLabel.TabIndex = 21;
-            item_descLabel.Text = "الوصف :";
             // 
             // item_descLabel1
             // 
@@ -458,15 +580,14 @@
             this.panel1.Size = new System.Drawing.Size(1101, 60);
             this.panel1.TabIndex = 23;
             // 
-            // avgLabel
+            // codeLabel1
             // 
-            avgLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            avgLabel.AutoSize = true;
-            avgLabel.Location = new System.Drawing.Point(332, 21);
-            avgLabel.Name = "avgLabel";
-            avgLabel.Size = new System.Drawing.Size(58, 18);
-            avgLabel.TabIndex = 22;
-            avgLabel.Text = "المتوسط :";
+            this.codeLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.item_masterBindingSource, "code", true));
+            this.codeLabel1.Location = new System.Drawing.Point(892, 19);
+            this.codeLabel1.Name = "codeLabel1";
+            this.codeLabel1.Size = new System.Drawing.Size(119, 23);
+            this.codeLabel1.TabIndex = 24;
+            this.codeLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // avgLabel1
             // 
@@ -478,64 +599,29 @@
             this.avgLabel1.TabIndex = 23;
             this.avgLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // markBindingSource
-            // 
-            this.markBindingSource.DataMember = "mark";
-            this.markBindingSource.DataSource = this.tibasport_dbDataSet;
-            // 
             // markTableAdapter
             // 
             this.markTableAdapter.ClearBeforeFill = true;
-            // 
-            // typeBindingSource
-            // 
-            this.typeBindingSource.DataMember = "type";
-            this.typeBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // typeTableAdapter
             // 
             this.typeTableAdapter.ClearBeforeFill = true;
             // 
-            // colorBindingSource
-            // 
-            this.colorBindingSource.DataMember = "color";
-            this.colorBindingSource.DataSource = this.tibasport_dbDataSet;
-            // 
             // colorTableAdapter
             // 
             this.colorTableAdapter.ClearBeforeFill = true;
-            // 
-            // sizeBindingSource
-            // 
-            this.sizeBindingSource.DataMember = "size";
-            this.sizeBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // sizeTableAdapter
             // 
             this.sizeTableAdapter.ClearBeforeFill = true;
             // 
-            // storeBindingSource
-            // 
-            this.storeBindingSource.DataMember = "store";
-            this.storeBindingSource.DataSource = this.tibasport_dbDataSet;
-            // 
             // storeTableAdapter
             // 
             this.storeTableAdapter.ClearBeforeFill = true;
             // 
-            // locationBindingSource
-            // 
-            this.locationBindingSource.DataMember = "location";
-            this.locationBindingSource.DataSource = this.tibasport_dbDataSet;
-            // 
             // locationTableAdapter
             // 
             this.locationTableAdapter.ClearBeforeFill = true;
-            // 
-            // unitBindingSource
-            // 
-            this.unitBindingSource.DataMember = "unit";
-            this.unitBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
             // unitTableAdapter
             // 
@@ -574,81 +660,14 @@
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // codeLabel
+            // balanceBindingSource
             // 
-            codeLabel.AutoSize = true;
-            codeLabel.Location = new System.Drawing.Point(1017, 21);
-            codeLabel.Name = "codeLabel";
-            codeLabel.Size = new System.Drawing.Size(41, 18);
-            codeLabel.TabIndex = 23;
-            codeLabel.Text = "الكود :";
+            this.balanceBindingSource.DataMember = "balance";
+            this.balanceBindingSource.DataSource = this.tibasport_dbDataSet;
             // 
-            // codeLabel1
+            // balanceTableAdapter
             // 
-            this.codeLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.item_masterBindingSource, "code", true));
-            this.codeLabel1.Location = new System.Drawing.Point(892, 19);
-            this.codeLabel1.Name = "codeLabel1";
-            this.codeLabel1.Size = new System.Drawing.Size(119, 23);
-            this.codeLabel1.TabIndex = 24;
-            this.codeLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "م";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 38;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "code";
-            this.dataGridViewTextBoxColumn2.HeaderText = "الكود";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 58;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "item_desc";
-            this.dataGridViewTextBoxColumn7.HeaderText = "الوصف";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 60;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 71;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "store";
-            this.dataGridViewTextBoxColumn8.HeaderText = "المخزن";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 69;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "location";
-            this.dataGridViewTextBoxColumn12.HeaderText = "الرف";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 58;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "avg";
-            this.dataGridViewTextBoxColumn11.HeaderText = "المتوسط";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 75;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "reorder";
-            this.dataGridViewTextBoxColumn10.HeaderText = "حد الطلب";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 80;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "unit";
-            this.dataGridViewTextBoxColumn9.HeaderText = "الوحدة";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 66;
+            this.balanceTableAdapter.ClearBeforeFill = true;
             // 
             // itemMaster
             // 
@@ -691,16 +710,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.item_masterBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.item_masterDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.markBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sizeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.storeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.unitBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.majorgpBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.markBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeBindingSource)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.balanceBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -713,7 +733,7 @@
         private tibasport_dbDataSetTableAdapters.item_masterTableAdapter item_masterTableAdapter;
         private tibasport_dbDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView item_masterDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Label idLabel1;
         private System.Windows.Forms.ComboBox major_gpComboBox;
         private System.Windows.Forms.ComboBox colorComboBox;
@@ -756,5 +776,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.BindingSource balanceBindingSource;
+        private tibasport_dbDataSetTableAdapters.balanceTableAdapter balanceTableAdapter;
     }
 }
